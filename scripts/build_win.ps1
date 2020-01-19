@@ -4,11 +4,15 @@ Set-ExecutionPolicy Unrestricted -Scope process -Force
 # Remove previous build outputs
 Remove-Item "epb-setup.exe" -Force -Recurse -ErrorAction Ignore
 Remove-Item "out" -Force -Recurse -ErrorAction Ignore
-Remove-Item "py_out" -Force -Recurse -ErrorAction Ignore
+Remove-Item "backend_out" -Force -Recurse -ErrorAction Ignore
+Remove-Item "backend_src\build\" -Force -Recurse -ErrorAction Ignore
+Remove-Item "backend_src/dist/" -Force -Recurse -ErrorAction Ignore
+Remove-Item "ackend_src/__pycache__/" -Force -Recurse -ErrorAction Ignore
+Remove-Item "ackend_src/*.spec" -Force -Recurse -ErrorAction Ignore
 
 # Build python part
 .\.venv\Scripts\activate.ps1
-pyinstaller py_src/pytest1.py --distpath py_out --workpath py_src/build --specpath py_src/ --onefile
+pyinstaller backend_src/pytest1.py --distpath backend_out --workpath backend_src/build --specpath backend_src/ --onefile
 deactivate
 
 # Build it

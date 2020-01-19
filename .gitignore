@@ -4,11 +4,11 @@ out/
 
 # Python Stuff
 .venv
-py_src/__pycache__
-py_src/build
-py_src/dist
-py_src/*.spec
-py_out
+backend_src/__pycache__
+backend_src/build
+backend_src/dist
+backend_src/*.spec
+backend_out
 
 # Mac Stuff
 .DS_store

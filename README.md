@@ -10,7 +10,7 @@ Additional dependencies for building (Windows)
 Steps:
 <br>	1.) Clone the repo
 <br>	2.) cd electron-python-base
-<br> 3.) Depending on OS, run script in the /scripts directory
+<br>    3.) Depending on OS, run script in the /scripts directory
 <br> NOTE: Setup scripts are meant to help get the environment setup.
 
 Note on Windows Power Shell Scripts: 
