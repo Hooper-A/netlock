@@ -1,0 +1,6 @@
+ToDo's
+1.) Fix compile/runtime errors/missing items
+2.) Update windows INNO build script that makes the installer (still calls it electron-python-base)
+
+Other ToDo's
+1.) Probably some code cleanup/refactoring

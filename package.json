@@ -59,7 +59,8 @@
           ".venv",
           "backend_src",
           "scripts",
-          "old_files"
+          "old_files",
+	  "todo.txt"
         ]
       }
     }
