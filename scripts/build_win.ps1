@@ -19,12 +19,12 @@ deactivate
 npm run package
 
 # Start the output for testing
-# Start-Process -FilePath .\out\electron-python-base-win32-ia32\electron-python-base.exe
+# Start-Process -FilePath .\out\electron-python-base-win32-ia32\NetLock.exe
 
 # Build the installer
 & 'C:\Program Files (x86)\Inno Setup 6\ISCC.exe' /q .\scripts\inno_builder_script.iss
-cp .\scripts\Output\electron-python-base.exe ./epb-setup.exe
+cp .\scripts\Output\NetLock.exe ./netlock-setup.exe
 Remove-Item "scripts\Output" -Force -Recurse -ErrorAction Ignore
 
 # Run the installer
-Start-Process -FilePath .\epb-setup.exe
+Start-Process -FilePath .\netlock-setup.exe

@@ -1,11 +1,11 @@
 Dependenices for building (All OS's)
 <br>	* Python
-<br> * Virtualenv
+<br>    * Virtualenv
 <br>	* NodeJS
 
 Additional dependencies for building (Windows)
 <br>	* Git
-<br> * Inno Setup (https://www.jrsoftware.org/isinfo.php)
+<br>    * Inno Setup (https://www.jrsoftware.org/isinfo.php)
 
 Steps:
 <br>	1.) Clone the repo
@@ -20,5 +20,3 @@ When Adding npm Packages (Either by `npm install` or adding to package.json) Aft
 <br>	npm install
 <br>	rm -rf node_modules
 <br>	npm install
-
-See references.txt for links and resources I used to figure all this out. 
