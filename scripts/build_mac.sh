@@ -17,4 +17,3 @@ npm run make
 
 # Open app
 open out/netlock-darwin-x64/netlock.app/
-osascript -e 'quit app "netlock"'

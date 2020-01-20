@@ -60,7 +60,7 @@
           "backend_src",
           "scripts",
           "old_files",
-          "todo.txt"
+	  "todo.txt"
         ]
       }
     }
