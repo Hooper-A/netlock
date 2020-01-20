@@ -1,4 +1,7 @@
 #!/bin/bash
+# Kill app if its running (ignore any errors)
+osascript -e 'quit app "netlock"'
+
 # Cleanup previous build
 rm -rf out/
 rm -rf backend_src/build/ 
